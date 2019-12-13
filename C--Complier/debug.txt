@@ -1,0 +1,42 @@
+resource file:Saved in "0 prog-resource.txt"
+------------------------------------------
+period:Pretreat/Initialize	step:1	content:Remove Notes
+	resource_file:		"0 prog-resource.txt"
+	destination_file:	"1 prog-step1.txt"
+Remove Notes完成
+------------------------------------------
+period:Pretreat/Initialize	step:2	content:Remove Blanks
+	resource_file:		"1 prog-step1.txt"
+	destination_file:	"2 prog-clear.txt"
+Remove Blanks完成
+------------------------------------------
+period:Pretreat/Initialize	step:3	content:Eliminate left recursion
+	resource_file:		"4 grammar.txt"
+	destination_file:	"5 ll1_grammar.txt"
+Eliminate left recursion完成
+------------------------------------------
+period:Pretreat/Initialize	step:4	content:Spilt by |
+	resource_file:		"5 ll1_grammar.txt"
+	destination_file:	"6 ad_grammar.txt"
+Spilt by |完成
+------------------------------------------
+period:Pretreat/Initialize	step:5	content:get vn,vt
+	resource_file:		"6 ad_grammar.txt"
+	destination_file:	"7 vn_vtlist.txt"
+get vn,vt完成
+------------------------------------------
+period:Pretreat/Initialize	step:6	content:get first,follow
+	resource_file:		"6 ad_grammar.txt"
+	destination_file:	"8 first_follow.txt"
+get first,follow完成
+------------------------------------------
+period:Pretreat/Initialize	step:7	content:get analysis table
+	resource_file:		"6 ad_grammar.txt"
+	destination_file:	"9 mtable.txt"
+get analysis table完成
+------------------------------------------
+period:Syntax Analysis	step:1	content:Lexical Analysis
+	resource_file:		"2 prog-clear.txt"
+	destination_file:	"3-lexical.txt"
+[Lexical ERROR]  [9,30] Invalid COP 
+词法分析出错，访问3 lexical.txt以获得更多信息
