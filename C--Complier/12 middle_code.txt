@@ -1,0 +1,36 @@
+(100) Prog program
+(101) i := 0
+(102) T0 := b + c
+(103) T1 := a > T0
+(104) if T1==1 Goto 106
+(105) Goto 111
+(106) T2 := b * c
+(107) T3 := T2 + 1
+(108) T4 := a + T3
+(109) j := T4
+(110) Goto 112
+(111) j := a
+(112) T5 := i <= 100
+(113) if T5==1 Goto 115
+(114) Goto 118
+(115) T6 := j * 2
+(116) i := T6
+(117) Goto 112
+(118) return i
+(119) Prog demo
+(120) T7 := a + 2
+(121) a := T7
+(122) T8 := a * 2
+(123) return T8
+(124) Prog main
+(125) a := 3
+(126) b := 4
+(127) c := 2
+(128) param c
+(129) T9 := call demo
+(130) param a
+(131) param b
+(132) param T9
+(133) T10 := call program
+(134) a := T10
+(135) return

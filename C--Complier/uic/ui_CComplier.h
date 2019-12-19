@@ -17,6 +17,7 @@
 #include <QtWidgets/QProgressBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
 
@@ -42,6 +43,8 @@ public:
     QPushButton *pushButton_12;
     QPushButton *pushButton_13;
     QPushButton *pushButton_14;
+    QTextBrowser *textBrowser;
+    QLabel *label_2;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -50,62 +53,69 @@ public:
     {
         if (CComplierClass->objectName().isEmpty())
             CComplierClass->setObjectName(QString::fromUtf8("CComplierClass"));
-        CComplierClass->resize(661, 482);
+        CComplierClass->resize(918, 686);
         centralWidget = new QWidget(CComplierClass);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(70, 160, 112, 34));
+        pushButton->setGeometry(QRect(20, 240, 112, 34));
         progressBar123 = new QProgressBar(centralWidget);
         progressBar123->setObjectName(QString::fromUtf8("progressBar123"));
-        progressBar123->setGeometry(QRect(150, 30, 381, 61));
+        progressBar123->setGeometry(QRect(220, 50, 381, 61));
         progressBar123->setValue(0);
         label = new QLabel(centralWidget);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(240, 100, 201, 21));
+        label->setGeometry(QRect(310, 120, 201, 21));
         pushButton_2 = new QPushButton(centralWidget);
         pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(200, 160, 112, 34));
+        pushButton_2->setGeometry(QRect(20, 290, 112, 34));
         pushButton_3 = new QPushButton(centralWidget);
         pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
-        pushButton_3->setGeometry(QRect(330, 160, 112, 34));
+        pushButton_3->setGeometry(QRect(20, 340, 112, 34));
         pushButton_4 = new QPushButton(centralWidget);
         pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
-        pushButton_4->setGeometry(QRect(460, 160, 112, 34));
+        pushButton_4->setGeometry(QRect(20, 390, 112, 34));
         pushButton_5 = new QPushButton(centralWidget);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(70, 220, 112, 34));
+        pushButton_5->setGeometry(QRect(20, 440, 112, 34));
         pushButton_6 = new QPushButton(centralWidget);
         pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
-        pushButton_6->setGeometry(QRect(200, 220, 112, 34));
+        pushButton_6->setGeometry(QRect(20, 490, 112, 34));
         pushButton_7 = new QPushButton(centralWidget);
         pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
-        pushButton_7->setGeometry(QRect(330, 220, 112, 34));
+        pushButton_7->setGeometry(QRect(150, 240, 112, 34));
         pushButton_8 = new QPushButton(centralWidget);
         pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
-        pushButton_8->setGeometry(QRect(460, 220, 112, 34));
+        pushButton_8->setGeometry(QRect(150, 290, 112, 34));
         pushButton_9 = new QPushButton(centralWidget);
         pushButton_9->setObjectName(QString::fromUtf8("pushButton_9"));
-        pushButton_9->setGeometry(QRect(230, 340, 181, 51));
+        pushButton_9->setGeometry(QRect(20, 60, 181, 51));
         pushButton_10 = new QPushButton(centralWidget);
         pushButton_10->setObjectName(QString::fromUtf8("pushButton_10"));
-        pushButton_10->setGeometry(QRect(70, 280, 112, 34));
+        pushButton_10->setGeometry(QRect(150, 340, 112, 34));
         pushButton_11 = new QPushButton(centralWidget);
         pushButton_11->setObjectName(QString::fromUtf8("pushButton_11"));
-        pushButton_11->setGeometry(QRect(200, 280, 112, 34));
+        pushButton_11->setGeometry(QRect(150, 390, 112, 34));
         pushButton_12 = new QPushButton(centralWidget);
         pushButton_12->setObjectName(QString::fromUtf8("pushButton_12"));
-        pushButton_12->setGeometry(QRect(330, 280, 112, 34));
+        pushButton_12->setGeometry(QRect(150, 440, 112, 34));
         pushButton_13 = new QPushButton(centralWidget);
         pushButton_13->setObjectName(QString::fromUtf8("pushButton_13"));
-        pushButton_13->setGeometry(QRect(460, 280, 112, 34));
+        pushButton_13->setGeometry(QRect(150, 490, 112, 34));
         pushButton_14 = new QPushButton(centralWidget);
         pushButton_14->setObjectName(QString::fromUtf8("pushButton_14"));
-        pushButton_14->setGeometry(QRect(230, 320, 181, 61));
+        pushButton_14->setGeometry(QRect(630, 50, 181, 61));
+        textBrowser = new QTextBrowser(centralWidget);
+        textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
+        textBrowser->setGeometry(QRect(300, 190, 551, 411));
+        textBrowser->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
+        label_2 = new QLabel(centralWidget);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(30, 197, 101, 31));
         CComplierClass->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(CComplierClass);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 661, 29));
+        menuBar->setGeometry(QRect(0, 0, 918, 29));
         CComplierClass->setMenuBar(menuBar);
         mainToolBar = new QToolBar(CComplierClass);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
@@ -137,6 +147,7 @@ public:
         pushButton_12->setText(QCoreApplication::translate("CComplierClass", "\344\270\255\351\227\264\344\273\243\347\240\201\347\224\237\346\210\220", nullptr));
         pushButton_13->setText(QCoreApplication::translate("CComplierClass", "DAG\344\274\230\345\214\226", nullptr));
         pushButton_14->setText(QCoreApplication::translate("CComplierClass", "\346\237\245\347\234\213\351\224\231\350\257\257\346\217\220\347\244\272", nullptr));
+        label_2->setText(QCoreApplication::translate("CComplierClass", " \346\237\245\347\234\213\347\273\223\346\236\234", nullptr));
     } // retranslateUi
 
 };

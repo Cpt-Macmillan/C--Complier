@@ -38,5 +38,6 @@ get analysis table完成
 period:Syntax Analysis	step:1	content:Lexical Analysis
 	resource_file:		"2 prog-clear.txt"
 	destination_file:	"3-lexical.txt"
-[Lexical ERROR]  [9,30] Invalid COP 
-词法分析出错，访问3 lexical.txt以获得更多信息
+Error Occured at 8, 12;
+Probable Reason: 全角字符是不被允许的。
+词法分析出错，查看“词法分析结果”以获得更多信息

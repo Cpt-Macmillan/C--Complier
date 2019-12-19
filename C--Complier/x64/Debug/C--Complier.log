@@ -1,2 +1,12 @@
-﻿  lexical-analysis.cpp
-  C--Complier.vcxproj -> C:\Users\Stewart1999\source\repos\C--Complier\x64\Debug\C--Complier.exe
+﻿  CComplier.cpp
+  Compiler-Main.cpp
+  global.cpp
+  grammar-analysis.cpp
+  lexical-analysis.cpp
+  main.cpp
+  optimize.cpp
+  pretreat.cpp
+  symbol.cpp
+  qrc_CComplier.cpp
+  moc_CComplier.cpp
+  C--Complier.vcxproj -> C:\Users\Stewart1999\Documents\GitHub\C--Complier\x64\Debug\C--Complier.exe

@@ -467,7 +467,7 @@ int stack_popout(struct Stack &stack)
 void stack_show(struct Stack stack, fstream &out)
 {
 	int i;
-	out << "当前栈中元素个数:" << stack.current;
+	out << "Stack Length:" << stack.current;
 	for (i = 0;i < stack.current;i++)
 		out << " " << stack.st[i];
 	out << endl;

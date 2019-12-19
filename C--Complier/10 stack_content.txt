@@ -1,0 +1,174 @@
+Stack Length:2 # S
+Stack Length:2 # program
+Stack Length:2 # declaration-list
+Stack Length:3 # declaration-list' declaration
+Stack Length:3 # declaration-list' fun-declaration
+Stack Length:7 # declaration-list' ) params ( IDF type-specifier
+Stack Length:7 # declaration-list' ) params ( IDF int
+Stack Length:6 # declaration-list' ) params ( IDF
+Stack Length:5 # declaration-list' ) params (
+Stack Length:4 # declaration-list' ) params
+Stack Length:4 # declaration-list' ) params-list
+Stack Length:5 # declaration-list' ) params-list' param
+Stack Length:7 # declaration-list' ) params-list' param' ID type-specifier
+Stack Length:7 # declaration-list' ) params-list' param' ID int
+Stack Length:6 # declaration-list' ) params-list' param' ID
+Stack Length:5 # declaration-list' ) params-list' param'
+Stack Length:4 # declaration-list' ) params-list'
+Stack Length:6 # declaration-list' ) params-list' param ,
+Stack Length:5 # declaration-list' ) params-list' param
+Stack Length:7 # declaration-list' ) params-list' param' ID type-specifier
+Stack Length:7 # declaration-list' ) params-list' param' ID int
+Stack Length:6 # declaration-list' ) params-list' param' ID
+Stack Length:5 # declaration-list' ) params-list' param'
+Stack Length:4 # declaration-list' ) params-list'
+Stack Length:6 # declaration-list' ) params-list' param ,
+Stack Length:5 # declaration-list' ) params-list' param
+Stack Length:7 # declaration-list' ) params-list' param' ID type-specifier
+Stack Length:7 # declaration-list' ) params-list' param' ID int
+Stack Length:6 # declaration-list' ) params-list' param' ID
+Stack Length:5 # declaration-list' ) params-list' param'
+Stack Length:4 # declaration-list' ) params-list'
+Stack Length:3 # declaration-list' )
+Stack Length:2 # declaration-list'
+Stack Length:3 # declaration-list' declaration
+Stack Length:3 # declaration-list' fun-declaration
+Stack Length:3 # declaration-list' compound-stmt
+Stack Length:6 # declaration-list' } statement-list local-declarations {
+Stack Length:5 # declaration-list' } statement-list local-declarations
+Stack Length:5 # declaration-list' } statement-list local-declarations'
+Stack Length:6 # declaration-list' } statement-list local-declarations' var-declaration
+Stack Length:8 # declaration-list' } statement-list local-declarations' var-declaration' ID type-specifier
+Stack Length:8 # declaration-list' } statement-list local-declarations' var-declaration' ID int
+Stack Length:7 # declaration-list' } statement-list local-declarations' var-declaration' ID
+Stack Length:6 # declaration-list' } statement-list local-declarations' var-declaration'
+Stack Length:6 # declaration-list' } statement-list local-declarations' ;
+Stack Length:5 # declaration-list' } statement-list local-declarations'
+Stack Length:6 # declaration-list' } statement-list local-declarations' var-declaration
+Stack Length:8 # declaration-list' } statement-list local-declarations' var-declaration' ID type-specifier
+Stack Length:8 # declaration-list' } statement-list local-declarations' var-declaration' ID int
+Stack Length:7 # declaration-list' } statement-list local-declarations' var-declaration' ID
+Stack Length:6 # declaration-list' } statement-list local-declarations' var-declaration'
+Stack Length:6 # declaration-list' } statement-list local-declarations' ;
+Stack Length:5 # declaration-list' } statement-list local-declarations'
+Stack Length:4 # declaration-list' } statement-list
+Stack Length:4 # declaration-list' } statement-list'
+Stack Length:5 # declaration-list' } statement-list' statement
+Stack Length:5 # declaration-list' } statement-list' expression-stmt
+Stack Length:6 # declaration-list' } statement-list' ; expression
+Stack Length:8 # declaration-list' } statement-list' ; expression = var1
+Stack Length:9 # declaration-list' } statement-list' ; expression = var1' ID1
+Stack Length:8 # declaration-list' } statement-list' ; expression = var1'
+Stack Length:7 # declaration-list' } statement-list' ; expression =
+Stack Length:6 # declaration-list' } statement-list' ; expression
+Stack Length:6 # declaration-list' } statement-list' ; simple-expression
+Stack Length:7 # declaration-list' } statement-list' ; simple-expression' additive-expression
+Stack Length:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term
+Stack Length:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' factor
+Stack Length:9 # declaration-list' } statement-list' ; simple-expression' additive-expression' term' NUM
+Stack Length:8 # declaration-list' } statement-list' ; simple-expression' additive-expression' term'
+Stack Length:7 # declaration-list' } statement-list' ; simple-expression' additive-expression'
+Stack Length:6 # declaration-list' } statement-list' ; simple-expression'
+Stack Length:5 # declaration-list' } statement-list' ;
+Stack Length:4 # declaration-list' } statement-list'
+Stack Length:5 # declaration-list' } statement-list' statement
+Stack Length:5 # declaration-list' } statement-list' selection-stmt
+Stack Length:10 # declaration-list' } statement-list' selection-stmt' statement ) expression ( if
+Stack Length:9 # declaration-list' } statement-list' selection-stmt' statement ) expression (
+Stack Length:8 # declaration-list' } statement-list' selection-stmt' statement ) expression
+Stack Length:8 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression
+Stack Length:9 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression
+Stack Length:10 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term' factor
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term' var
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term' var' ID
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term' var'
+Stack Length:10 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression' term'
+Stack Length:9 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression' additive-expression'
+Stack Length:8 # declaration-list' } statement-list' selection-stmt' statement ) simple-expression'
+Stack Length:9 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression relop
+Stack Length:9 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression >
+Stack Length:8 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression
+Stack Length:9 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term
+Stack Length:10 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' factor
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) expression (
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) expression
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression
+Stack Length:13 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term' factor
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term' var
+Stack Length:15 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term' var' ID
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term' var'
+Stack Length:13 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term'
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression'
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term addop
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term +
+Stack Length:13 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term' factor
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term' var
+Stack Length:15 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term' var' ID
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term' var'
+Stack Length:13 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression' term'
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression' additive-expression'
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' ) simple-expression'
+Stack Length:10 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term' )
+Stack Length:9 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression' term'
+Stack Length:8 # declaration-list' } statement-list' selection-stmt' statement ) additive-expression'
+Stack Length:7 # declaration-list' } statement-list' selection-stmt' statement )
+Stack Length:6 # declaration-list' } statement-list' selection-stmt' statement
+Stack Length:6 # declaration-list' } statement-list' selection-stmt' compound-stmt
+Stack Length:9 # declaration-list' } statement-list' selection-stmt' } statement-list local-declarations {
+Stack Length:8 # declaration-list' } statement-list' selection-stmt' } statement-list local-declarations
+Stack Length:7 # declaration-list' } statement-list' selection-stmt' } statement-list
+Stack Length:7 # declaration-list' } statement-list' selection-stmt' } statement-list'
+Stack Length:8 # declaration-list' } statement-list' selection-stmt' } statement-list' statement
+Stack Length:8 # declaration-list' } statement-list' selection-stmt' } statement-list' expression-stmt
+Stack Length:9 # declaration-list' } statement-list' selection-stmt' } statement-list' ; expression
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' } statement-list' ; expression = var1
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' } statement-list' ; expression = var1' ID1
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' } statement-list' ; expression = var1'
+Stack Length:10 # declaration-list' } statement-list' selection-stmt' } statement-list' ; expression =
+Stack Length:9 # declaration-list' } statement-list' selection-stmt' } statement-list' ; expression
+Stack Length:9 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression
+Stack Length:10 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' factor
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' var
+Stack Length:13 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' var' ID
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' var'
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term'
+Stack Length:10 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression'
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term addop
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term +
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' factor
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) expression (
+Stack Length:13 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) expression
+Stack Length:13 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression
+Stack Length:15 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term
+Stack Length:16 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' factor
+Stack Length:16 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' var
+Stack Length:17 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' var' ID
+Stack Length:16 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' var'
+Stack Length:15 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term'
+Stack Length:17 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' factor mulop
+Stack Length:17 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' factor *
+Stack Length:16 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' factor
+Stack Length:16 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' var
+Stack Length:17 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' var' ID
+Stack Length:16 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' var'
+Stack Length:15 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term'
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression'
+Stack Length:16 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term addop
+Stack Length:16 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term +
+Stack Length:15 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term
+Stack Length:16 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' factor
+Stack Length:16 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term' NUM
+Stack Length:15 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression' term'
+Stack Length:14 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression' additive-expression'
+Stack Length:13 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' ) simple-expression'
+Stack Length:12 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term' )
+Stack Length:11 # declaration-list' } statement-list' selection-stmt' } statement-list' ; simple-expression' additive-expression' term'
+Grammar Error at Line 8 Colume 12

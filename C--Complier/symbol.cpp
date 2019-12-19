@@ -84,16 +84,16 @@ void output(fstream &out)
 	int i, j;
 	int set = 20;
 	//输出函数符号表
-	out << setw(set) << left << "函数名" << setw(set) << "函数中参数个数" << setw(set) << "函数返回类型" << setw(set) << "函数符号表地址" << endl;
+	out << setw(set) << left << "Function Name" << setw(set) << "Arguments" << setw(set) << "Return type" << setw(set) << "Table Address" << endl;
 	for (i = 0;i < funcnum;i++)
 		out << setw(set - 1) << left << functable[i].name << setw(set - 2) << functable[i].num << setw(set - 2) << functable[i].ret << "0x" << setw(set) << functable[i].st << endl;
 	//输处各函数表
 	for (i = 0;i < funcnum;i++)
 	{
 		out << endl;
-		out << "函数名:" << functable[i].name << "\t符号表地址:0x" << functable[i].st << endl;
+		out << "Function Name:" << functable[i].name << "\tTable Address:0x" << functable[i].st << endl;
 		if (functable[i].num)
-			out << setw(set) << "变量名" << setw(set) << "属性" << setw(set) << "类型" << setw(set) << "地址" << endl;
+			out << setw(set) << "Name" << setw(set) << "Attribute" << setw(set) << "Type" << setw(set) << "Address" << endl;
 		for (j = 0;j < functable[i].num;j++)
 			out << setw(set - 1) << functable[i].st[j].name << setw(set - 1) << functable[i].st[j].property << setw(set - 1) << functable[i].st[j].type << setw(set) << functable[i].st[j].st << endl;
 	}
@@ -107,7 +107,7 @@ int calsymboltable(fstream &in, fstream &out)
 	vector<Token>::iterator titer;
 	struct symbol *cur = NULL;
 	int flag1, flag2, num, curnum;
-	//读入词法分析结果
+	//读入词法分析结果 
 	while (!in.eof())
 	{
 		in >> token.re >> token.type >> token.line >> token.colume;

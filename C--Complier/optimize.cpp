@@ -213,7 +213,7 @@ int optimize(fstream &in, fstream &out)
 	init_op();
 	getbetter1(in);
 	//输出基本块信息
-	out << "基本块入口:" << endl;
+	out << "Basic Blocks Entry:" << endl;
 	for (it = entry.begin();it != entry.end();it++)
 		out << *it << endl;
 	for (it = entry.begin();it != entry.end();it++)
